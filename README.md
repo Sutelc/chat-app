@@ -1,16 +1,36 @@
-<<<<<<< HEAD
-# React + Vite
+# 📱 Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time chat application built with **React.js** and **Firebase**, allowing users to send and receive messages instantly. Image sharing is supported via **ImgBB** API integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔒 User Authentication (Firebase Auth)
+- 💬 Real-time messaging using Firebase Realtime Database / Firestore
+- 🖼️ Image upload via ImgBB API
+- 📱 Responsive design (mobile-friendly)
+- 🌙 Dark/light mode toggle *(planned)*
+- 📌 User presence status *(planned)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# chat-app
->>>>>>> 2db09de793989de30562e44d892adbaeca52aaf4
+---
+
+## 🛠️ Technologies Used
+
+| Tech             | Usage                          |
+|------------------|--------------------------------|
+| React.js         | Front-end UI framework         |
+| Firebase         | Auth & Realtime DB / Firestore |
+| ImgBB API        | Image upload and storage       |
+| React Router     | Routing between components     |
+| TailwindCSS / CSS| Styling                        |
+
+---
+
+## 📷 Screenshots
+
+> Add your UI screenshots here (hosted via ImgBB or locally)
+
+```markdown
+![Chat Screen](link-to-imgbb-or-local-image)
+![Image Upload Feature](link-to-imgbb-or-local-image)
